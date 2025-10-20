@@ -1,0 +1,13 @@
+{
+  "name": "multi-stage-build",
+  "version": "1.0.0",
+  "description": "Multi-stage build example",
+  "main": "server.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp server.js dist/",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

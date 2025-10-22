@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        BUILD_TIMESTAMP: ${BUILD_TIMESTAMP:-$(date +%s)}
+    ports:
+      - "${PORT:-3000}:3000"
+    env_file:
+      - .env
+    environment:
+      - PORT=${PORT:-3000}
+      - EXTRA_VAR=set_in_compose

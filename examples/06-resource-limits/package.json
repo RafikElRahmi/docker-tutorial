@@ -1,0 +1,12 @@
+{
+  "name": "resource-limits",
+  "version": "1.0.0",
+  "description": "Resource limits example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

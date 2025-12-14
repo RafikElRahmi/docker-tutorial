@@ -1,0 +1,12 @@
+{
+  "name": "advanced-networking",
+  "version": "1.0.0",
+  "description": "Advanced networking example",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

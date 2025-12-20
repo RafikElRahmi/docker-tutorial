@@ -1,0 +1,14 @@
+{
+  "name": "postgres-redis-app",
+  "version": "1.0.0",
+  "description": "Node.js app with PostgreSQL and Redis for Docker tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.16.2",
+    "ioredis": "^5.6.0"
+  }
+}
